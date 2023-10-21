@@ -27,6 +27,7 @@ public class UserTest
 		userpayload.setEmail(faker.internet().safeEmailAddress());
 		userpayload.setPassword(faker.internet().password(5, 10));
 		userpayload.setPhone(faker.phoneNumber().cellPhone());
+		System.out.println("");
 	}
 
 	@Test(priority = 1)
